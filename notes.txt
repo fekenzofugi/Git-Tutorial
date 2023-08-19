@@ -2,9 +2,30 @@ VERSION CONTROL: Versions of your code.
 
 VERSION CONTROL USING GIT AND THE COMMAND LINE.
 
-    TUTORIAL: COMMAND LINE COMMANDS
+    TUTORIAL: LOCAL REPOSITORY 
 
     1. git init //It will initialize a empty git repository inside the directory, called working
     directory.
     2. git status //It will show the untracked files that are not in the STAGING AREA.
     3. git add fileName.txt //It will add the file to the STAGING AREA.
+    4. git commit -m "Complete Commit 1" //It will commit all files of the STAGING AREA
+    with a message.
+    5. git log //It will show all the commits you've made.
+    6. git add. //It will add all the working directory files to the STAGING AREA.
+    7. git checkout fileName.txt //It will change our local working directory file data with
+    the commited file.
+    8. git diff fileName.txt //It will show the difference between the old commited Version
+    and the new version.
+
+    TUTORIAL: REMOTE REPOSITORY
+    obs: We already create the github repository
+
+    1. git remote add origin https://github.com/fernandofugihara/gitTutorial.git // It will
+    create a remote repository.
+    2. git branch -M main
+    3. git push -u origin main //It will push the local repository to the remote repository
+    and all of the progress.
+
+    MAIN BRANCH: It is the main progress of the local directory.
+
+    Gitignore: 
