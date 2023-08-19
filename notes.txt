@@ -1,0 +1,10 @@
+VERSION CONTROL: Versions of your code.
+
+VERSION CONTROL USING GIT AND THE COMMAND LINE.
+
+    TUTORIAL: COMMAND LINE COMMANDS
+
+    1. git init //It will initialize a empty git repository inside the directory, called working
+    directory.
+    2. git status //It will show the untracked files that are not in the STAGING AREA.
+    3. git add fileName.txt //It will add the file to the STAGING AREA.
