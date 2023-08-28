@@ -28,4 +28,17 @@ VERSION CONTROL USING GIT AND THE COMMAND LINE.
 
     MAIN BRANCH: It is the main progress of the local directory.
 
-    Gitignore: 
+    Gitignore: It's a file that has the names of the files that we want git to ignore and not commit to our
+    remote repository.
+
+    git Clone: clone the remote repository using the command:
+    git clone url
+
+    Branching: If we want to add a new feature to our project, we can create a new branch using the command:
+
+    git branch name-of-branch
+
+    Merging: If our new feature / experiment was fruitfull and the feature that we build is really great, we can
+    merge it back to the main branch using:
+
+    git merge name-of-branch
