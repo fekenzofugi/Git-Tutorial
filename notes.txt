@@ -42,3 +42,25 @@ VERSION CONTROL USING GIT AND THE COMMAND LINE.
     merge it back to the main branch using:
 
     git merge name-of-branch
+
+    git branching step-by-step:
+    1. git branch name-of-branch //it will create a new git branch.
+    2. git checkout name-of-branch //it will change the current branch to specified branch name
+    3. git add . //it will add the files to the STAGING AREA of the new branch
+    4. git commit -m "" //it will commit the files the new branch.
+    5. git log //it will show the commits made on all bunches.
+    6. git branch //it will show which branch you are.
+    7. git branch name-of-branch //it will change the current branch and the code will change to the branch specified.
+    8. git merge name-of-branch //it will merge the branches open another window then we can add a message or add a :q!
+    9. git push -u origin main
+
+    Forking and Pull Request
+
+    How to suggest code changes and contribute to an open source project.
+
+    Forking: copy of the code on a remote repository (clone copy the code on a local repository)
+    After forking the code in your remote repository, you can clone the code in your local repository
+    and make changes. Then you can push to your remote repository. if you want that the owner of the
+    code make the changes in the offial repository you can make a pull request - if you don't have then
+    permission. If the suggestion was approved, the code will change on a commit.
+
