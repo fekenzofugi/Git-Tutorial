@@ -45,7 +45,7 @@ VERSION CONTROL USING GIT AND THE COMMAND LINE.
 ```
     git merge name-of-branch
 ```
-    git branching step-by-step:
+git branching step-by-step:
 ```
     1. git branch name-of-branch //it will create a new git branch.
     2. git checkout name-of-branch //it will change the current branch to specified branch name
